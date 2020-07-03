@@ -115,3 +115,6 @@ $ git commit .gitignore -m "add - gitignore pour dossier vendor"
 
 ### le reste 
 $ git add template/ index.php composer.json 
+$ git commit template/ index.php composer.json -m "add - mise en place du projet"
+$ git status
+$ git push origin master
